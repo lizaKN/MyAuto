@@ -1,0 +1,140 @@
+.main {
+    display: flex;
+    padding: 16px;
+    /* gap: 5px; */
+    background-color: white;
+    border-radius: 10px;
+    max-width: 880px;
+    width: 100%;
+    height: 182px;
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.manq{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.manq img{
+    height: 150px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.info {
+    padding-left: 14px;
+}
+
+.names {
+    font-weight: bold;
+    font-size: 14px;
+    color: #272a37;
+}
+
+.year {
+    color: #8996ae;
+    margin-left: 8px;
+}
+
+.mainInfos {
+    height: 100%;
+}
+
+.ganbajeba {
+    font-size: 12px;
+}
+
+.country-container {
+    font-size: 12px;
+}
+
+.col-ganbajeba {
+    display: flex;
+    justify-content: end;
+    /* padding-right: 16px; */
+}
+
+.price {
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 0;
+    text-align: right;
+    display: flex;
+    justify-content: end;
+    transform: translateY(-40px);
+}
+
+.stats-wrapper > div {
+    height: 40px;
+}
+
+.stats-placeholder {
+    width: 10px!important;
+}
+
+.stats-wrapper > div > div:first-child {
+    margin-right: 8px;
+}
+
+.stats-wrapper > div > div > p {
+    margin: 0;
+}
+
+.stats-wrapper {
+    margin-top: 18px !important;
+    margin-bottom: 10px !important;
+}
+
+.lari-wrapper {
+    background-color: #e4e7ed;
+    padding: 0 0.4em;
+    cursor: pointer;
+    color: #272a37;
+    border-radius: 50%;
+}
+
+
+.time-views {
+    font-size: 12px;
+}
+
+@media (max-width: 1200px) {
+    .main{
+        flex-direction: column;
+        height: auto;
+    }
+    .manq img{
+        height: auto;
+        width: 710px;
+    }
+    .maqn {
+        padding-bottom: 16px;
+    }
+    .containerL{
+        align-self: start;
+    }
+
+    .tools{
+        gap:0px
+    }
+    .stats-wrapper > div {
+        width: 45%;
+    }
+    .price {
+        transform: translateY(0);
+        justify-content: start;
+    }
+}
+
+@media (max-width: 767px ) {
+    .manq img{
+        height: auto;
+        width: 330px;
+    }
+    .price{
+        transform: translateY(0);
+    }
+}

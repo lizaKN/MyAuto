@@ -1,0 +1,281 @@
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 24px;
+
+  width: 250px;
+  height: 600px;
+
+  background-color: white;
+
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+
+}
+
+
+.results {
+
+  display: flex;
+  padding: 10px;
+  align-items: flex-end;
+  top: 30px;
+  margin-top: 30px;
+
+  width: 284px;
+  height: 40px;
+}
+
+.nav-bar {
+
+  width: 100%;
+
+  padding: 17px;
+
+  display: flex;
+  justify-content: center;
+  background: #FFF;
+}
+
+.main-page > div{
+  display: flex;
+  gap: 20px;
+  padding-top: 30px;
+  max-width: 1150px;
+}
+.main-page{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.inner-nav{
+  width: 100%;
+  max-width: 1150px;
+}
+
+#photo {
+  height: 141px;
+  width: 194px;
+  border-radius: 7px;
+}
+
+#input {
+  width: 90%;
+  border-radius: 16px;
+
+
+}
+
+
+.logo {
+  width: 161px;
+  height: 46px;
+}
+.logo img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#icon {
+
+  width: 62px;
+  height: 45px;
+  left: 539px;
+  top: 156px;
+  background: #F9F9FB;
+  border-radius: 0px 11px 0px 0px;
+  border: solid;
+  border-width: 1px;
+  border-color: rgba(233, 233, 240, 1);
+
+}
+
+#year {
+  width: 44px;
+  height: 17px;
+
+  font-family: 'Helvetica Neue LT GEO';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #8C929B;
+}
+
+#names {
+  width: 230px;
+  height: 17px;
+
+  font-family: 'Helvetica Neue LT GEO', serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+
+
+  color: black;
+
+}
+
+.valueicon {
+  background: #E2E5EB;
+  border-radius: 12px;
+}
+
+
+
+
+.range {
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 8px 6px 10px;
+  gap: 12px;
+  margin-top: 5px;
+
+  width: 94px;
+  height: 40px;
+
+  /* border/2 */
+
+  border: 1px solid #D8DBE2;
+  border-radius: 8px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+
+
+}
+
+.label {
+  width: 202px;
+  height: 76px;
+}
+
+#search {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 76px;
+  gap: 4px;
+  left: 9.27%;
+  right: 9.27%;
+  top: 23.53%;
+  bottom: 29.41%;
+  border-color: #FD4100;
+  background: #FD4100;
+  border-radius: 6px;
+}
+
+
+.image-full-width {
+  flex: 1;
+  max-width: 250px;
+  height: auto;
+}
+
+#car-logo {
+  border-bottom: solid;
+  border-color: #FD4100;
+
+}
+
+#pages {
+  color: #FD4100;
+  border: none;
+
+
+
+}
+
+#pages:hover {
+  background-color: #FD4100;
+  color: #F9F9FB;
+}
+
+.selectedpage {
+  color: white;
+  display: flex;
+  justify-content: center;
+  background-color: #FD4100;
+  border-color: #FD4100;
+  width: 40px;
+
+
+}
+
+.tools {
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  justify-content: flex-end;
+
+  padding: 0px;
+  gap: 16px;
+
+
+}
+
+.mashinkebi{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: end;
+  margin-bottom: 100px;
+}
+
+.note, .shedareba, .favorite {
+  border: none;
+  background-color: white;
+}
+
+.container-1 {
+  margin-right: 0;
+  /* padding-left: 0px; */
+}
+
+
+
+.col-ganbajeba {
+  text-align: right;
+}
+
+.col-name {
+  margin-right: 0px;
+
+}
+
+.containerL {
+
+}
+
+.promotion {
+  margin-top: -5px;
+  margin-right: 10px;
+}
+
+.css-b62m3t-containerTOP {
+  margin-left: 15px;
+  width: 150px;
+}
+
+@media (max-width: 1200px) {
+  .main-page > div{
+      flex-direction: column;
+      align-items: center;
+  }
+}
